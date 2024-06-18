@@ -1,0 +1,23 @@
+### Get all students
+GET http://localhost:3000/students
+
+### Create a new student
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "firstName": "Max",
+  "lastName": "Verstappen",
+  "email": "max@gmail.com",
+  "password": "maxv",
+  "age": "27"
+}
+
+### Get a student by id
+GET http://localhost:3000/students/id
+
+### Update a student by id
+PATCH http://localhost:3000/students/id
+
+###
+GET http://localhost:3000/

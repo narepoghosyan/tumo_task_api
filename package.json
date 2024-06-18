@@ -1,0 +1,16 @@
+{
+  "name": "tumo_task_api",
+  "version": "1.0.0",
+  "description": "API for Tumo task",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
+}
